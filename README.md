@@ -171,6 +171,7 @@ Current List of Available Coins for Address Generation
 |GAP | Gapcoin | G  |
 |GCR | Global Currency Reserve | G  |
 |GRC | GridcoinResearch | R or S  |
+|xGOx | GO!Coin | G |
 |GRS | Groestlcoin | F  |
 |GUN | Guncoin | G or H  |
 |HAM | HamRadiocoin | 1  |

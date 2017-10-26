@@ -122,6 +122,7 @@ main(int argc, char **argv)
 					"GAME : GameCredits : G\n"
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
+					"xGOx : GO!Coin : G\n"
 					"GRC : GridcoinResearch : R or S\n"
 					"GRS : Groestlcoin : F\n"
 					"GUN : Guncoin : G or H\n"
@@ -208,6 +209,14 @@ main(int argc, char **argv)
 					"Decrypting GUN Address\n");
 					addrtype_opt = 39;
 					privtype_opt = 167;
+					break;
+			}
+			else
+			if (strcmp(optarg, "xGOx")== 0) {
+				fprintf(stderr,
+					"Decrypting xGOx Address\n");
+					addrtype_opt = 38;
+					privtype_opt = 166;
 					break;
 			}
 			else

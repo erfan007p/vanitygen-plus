@@ -203,6 +203,7 @@ main(int argc, char **argv)
 					"GAME : GameCredits : G\n"
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
+					"xGOx : GO!Coin : G\n"
 					"GRC : GridcoinResearch : R or S\n"
 					"GRS : Groestlcoin : F\n"
 					"GUN : Guncoin : G or H\n"
@@ -273,6 +274,14 @@ main(int argc, char **argv)
 					"Generating DEEPONION Address\n");
 					addrtype = 31;
 					privtype = 159;
+					break;
+			}
+			else
+			if (strcmp(optarg, "xGOx")== 0) {
+				fprintf(stderr,
+					"Generating xGOx Address\n");
+					addrtype = 38;
+					privtype = 166;
 					break;
 			}
 			else
