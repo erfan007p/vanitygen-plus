@@ -253,6 +253,7 @@ main(int argc, char **argv)
 					"WKC : Wankcoin : 1\n"
 					"WUBS : Dubstepcoin : D\n"
 					"XC : XCurrency : X\n"
+					"XIOS : XIOS : 2\n"
 					"XPM : Primecoin : A\n"
 					"YAC : Yacoin : Y\n"
 					"ZOOM : Zoom coin : i\n"
@@ -981,6 +982,15 @@ main(int argc, char **argv)
 					privtype = 128;
 					break;
 			}
+			break;
+			}
+			else
+			if (strcmp(optarg, "XIOS")== 0) {
+				fprintf(stderr,
+					"Generating XIOS Address\n");
+					addrtype = 3;
+					privtype = 131;
+					break;
 			break;
 
 /*END ALTCOIN GENERATOR*/
