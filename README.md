@@ -171,11 +171,11 @@ Current List of Available Coins for Address Generation
 |GAP | Gapcoin | G  |
 |GCR | Global Currency Reserve | G  |
 |GRC | GridcoinResearch | R or S  |
-|xGOx | GO!Coin | G |
 |GRS | Groestlcoin | F  |
 |GUN | Guncoin | G or H  |
 |HAM | HamRadiocoin | 1  |
 |HODL | HOdlcoin | H  |
+|HOLD | InterstellarHolding | H |
 |IXC | Ixcoin | x  |
 |JBS | Jumbucks | J  |
 |LBRY | LBRY | b  |
@@ -201,6 +201,7 @@ Current List of Available Coins for Address Generation
 |PPC | Peercoin | P  |
 |PTC | Pesetacoin | K  |
 |PTS | Protoshares | P  |
+|PURE | PURE | P |
 |RBY | Rubycoin | R  |
 |RDD | Reddcoin | R  |
 |RIC | Riecoin | R  |
@@ -220,8 +221,10 @@ Current List of Available Coins for Address Generation
 |WKC | Wankcoin | 1  |
 |WUBS | Dubstepcoin | D  |
 |XC | XCurrency | X  |
+|xGOx | xGOx | G |
 |XIOS | XIOS | 2 |
 |XPM | Primecoin | A  |
+|XSH | SHIELD | S |
 |YAC | Yacoin | Y  |
 |ZOOM | Zoom coin | i  |
 |ZRC | Ziftrcoin | Z  |
@@ -245,3 +248,7 @@ Current List of Available Coins for Address Generation
  * Donate PinkCoin: 2Give7s6EDxWCqj8F5fjrDrW8UcqbWboWn  
  * Donate GameCredits: Game1iVhBWDMvAUvJNHu3FQdEvEKLGKtSe  
  * Donate Crown: 1CRoWN8eNVfMjzVFuDybBsUaWd3zvBuXD7  
+ * Donate InterstellarHolding: HKL6HeiNdDJMZM2bYE9J5w4XhvmnnkneQu
+ * Donate PURE: PV1wwo15CwSRukt2pfyPGMreM5NALg1goR
+ * Donate SHIELD: SV7YCZPZGRQAHAdo89LtqxcGaFKH1wmLbD
+ * Donate xGOx: GW9g94X1ocMp3G6pC9cSXFH9dza9EugKR9

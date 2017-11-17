@@ -445,12 +445,12 @@ main(int argc, char **argv)
 					"GAME : GameCredits : G\n"
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
-					"xGOx : GO!Coin : G\n"
 					"GRC : GridcoinResearch : R or S\n"
 					"GRS : Groestlcoin : F\n"
 					"GUN : Guncoin : G or H\n"
 					"HAM : HamRadiocoin : 1\n"
 					"HODL : HOdlcoin : H\n"
+					"HOLD : InterstellarHolding : H\n"
 					"IXC : Ixcoin : x\n"
 					"JBS : Jumbucks : J\n"
 					"LBRY : LBRY : b\n"
@@ -476,6 +476,7 @@ main(int argc, char **argv)
 					"PPC : Peercoin : P\n"
 					"PTC : Pesetacoin : K\n"
 					"PTS : Protoshares : P\n"
+					"PURE : PURE : P\n"
 					"RBY : Rubycoin : R\n"
 					"RDD : Reddcoin : R\n"
 					"RIC : Riecoin : R\n"
@@ -496,12 +497,38 @@ main(int argc, char **argv)
 					"WUBS : Dubstepcoin : D\n"
 					"XC : XCurrency : X\n"
 					"XIOS : XIOS : 2\n"
+					"xGOx : xGOx : G\n"
 					"XPM : Primecoin : A\n"
+					"XSH : SHIELD : S\n"
 					"YAC : Yacoin : Y\n"
 					"ZOOM : Zoom coin : i\n"
 					"ZRC : Ziftrcoin : Z\n"
 					);
 					return 1;
+			}
+			else
+			if (strcmp(optarg, "HOLD")== 0) {
+				fprintf(stderr,
+					"Generating HOLD Address\n");
+					addrtype = 40;
+					privtype = 153;
+					break;
+			}
+			else
+			if (strcmp(optarg, "PURE")== 0) {
+				fprintf(stderr,
+					"Generating PURE Address\n");
+					addrtype = 63;
+					privtype = 153;
+					break;
+			}
+			else
+			if (strcmp(optarg, "SHIELD")== 0) {
+				fprintf(stderr,
+					"Generating SHIELD Address\n");
+					addrtype = 63;
+					privtype = 191;
+					break;
 			}
 			else
 			if (strcmp(optarg, "PINK")== 0) {
